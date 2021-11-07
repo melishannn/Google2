@@ -18,17 +18,51 @@ nav a:hover{
  .container{
   text-align: center;
     }
-    #search{
+ /*   #search{
           width:480px;
           border-radius:16px;
           outline: 1px  white;
     }
     .voice img{
         float:right;
-    }
+    } 
     button img{
         outline: none;
-    }
+    } */
+
+
+     .bar{
+        margin:0 auto;
+        width:575px;
+        border-radius:30px;
+        border:1px solid #dcdcdc;
+     }
+     /* hover fareyle üstüne tutulduğu zaman*/
+     .bar:hover{
+        box-shadow: 1px 1px 8px 1px #dcdcdc;
+      }
+     
+    .searchbar{
+        height:45px;
+        border:none;
+        width:480px;
+        font-size:16px;
+        outline: none;  
+      }
+      .voice{
+        height:20px;
+        position:relative;
+        top:5px;
+        left:10px;
+      }
+      .search{
+        height:20px;
+        position:relative;
+        top:10px;
+       float:left;
+      }
+
+      
     .buttons{
         padding: 1.2em;;
     }
