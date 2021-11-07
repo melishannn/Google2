@@ -16,35 +16,37 @@ nav a:hover{
 }
 
  .container{
-  line-height: 100px;
   text-align: center;
     }
     #search{
-      
-        border-color: rgb(236, 228, 228);
-        color: white;
-        position: relative;
-        padding: 1.2em;;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin:1.2em;
-        border-radius:8px ;
-        outline: none;
+          width:480px;
+          border-radius:16px;
+          outline: 1px  white;
+    }
+    .voice img{
+        float:right;
     }
     button img{
         outline: none;
     }
+    .buttons{
+        padding: 1.2em;;
+    }
     button a{
-        color: grey;
+        font-family:Arial ;
+        color:#5f6368;
+        height:36px;
+        font-size: 14px;
         text-decoration: none;
+        margin:1em;
         
     }
     button a:hover{
-        border-color:gray ;
-        border-style: ridge;
-        border-spacing: 1.2em;
+        position: static;
+        padding: 1.2em;
+        font-family:Arial ;
+        color:black;
+        border: 1px solid #5f6368;
     }
     button{
         border:none;
@@ -65,6 +67,9 @@ nav a:hover{
     }
     .right{
         float:right;
+    }
+    footer{
+        background-color:  #f2f2f2;
     }
      footer a{
          color:gray;
